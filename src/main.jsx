@@ -14,7 +14,7 @@ import RegPagInfoLogin from './pages/RegPagInfoLogin';
 
 const rootElement = document.getElementById("root");
 render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<LoadingPG />} />
       <Route path="/loginPage" element={<LoadingPG />} />
