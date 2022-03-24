@@ -1,6 +1,7 @@
 {
   "name": "sppow",
   "private": true,
+  "homepage": "github-pate/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
