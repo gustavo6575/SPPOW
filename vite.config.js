@@ -5,3 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()]
 })
+
+react ( { 
+  // Excluir histórias do livro de histórias 
+  exclude : / \. histórias \. ( t | j ) sx? $ / , 
+  // Somente arquivos .tsx 
+  incluem : '**/*.tsx' 
+} ) 
+
