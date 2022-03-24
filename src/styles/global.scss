@@ -1,0 +1,56 @@
+@charset "UTF-8";
+// #111111 #0A7373 #B7BF99 #EDAA25 #C43302
+//  cinza   azul     beje  amarelo vermelho
+
+
+:root
+{
+--cinza:#262626;
+--cinzaT:#fdfdfd3a;
+--amarelo:#F29F05;
+--amareloM:#80651D;
+--amareloF:#40330F;
+--amareloT:#f29f0510;
+--preto:#0D0D0D;
+
+--azul:#0A7373;
+--vermelho:#b32d00;
+--letras-cor:#fafafa;
+
+--inputC:#68686865;
+--fonte-padrao:'Roboto',sans-serif;
+--border: #00000071;
+}
+
+
+*{
+
+  font-family: var(--fonte-padrao);
+  font-size: 1.05em;
+  font-style: normal;
+  font-weight: 600;    
+  color: var(--letras-cor);
+}
+body{
+  background-color: var(--preto);
+}
+
+.CpyRigt{
+  padding-top: 10px;
+    font-size: 0.7em;
+}
+.bacRegister{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(35deg, var(--amarelo) 20%,var(--preto) 15%,var(--cinza) 20.6%);
+  max-width: 500px;
+  border-color: var(--amareloM);
+  border-width: 3px 3px 3px 3px;
+  border-style: inset;
+  border-radius: 0.3em;
+  box-shadow: 2px 1px 2px 4px var(--amareloT);   
+  
+}
