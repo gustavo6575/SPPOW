@@ -9,14 +9,6 @@ import LoadingPG from './pages/LoadingPage';
 import RPSInfoChar from './pages/RegPagInfoPess';
 import RegPagInfoAddress from './pages/RegPagInfoAddress';
 import RegPagInfoLogin from './pages/RegPagInfoLogin';
-react ( { 
-  // Excluir histórias do livro de histórias 
-  exclude : / \. histórias \. ( t | j ) sx? $ / , 
-  // Somente arquivos .tsx 
-  incluem : '**/*.tsx' 
-} ) 
-
-
 
 const rootElement = document.getElementById("root");
 render(
