@@ -1,13 +1,20 @@
 {
   "name": "sppow",
-  "private": true,
+  "private": false,
   "homepage":"github-page/",
   "version": "0.0.0",
+  "main": "pages/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "react",
+    "jsx"
+  ],
+  "license": "MIT",
+  
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
