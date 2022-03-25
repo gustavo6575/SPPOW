@@ -4,7 +4,6 @@ import {RPSInfoLogin } from './components/forms/R-P-Script'
 import { FooterCPY } from './components/forms/Footer-CPY';
 
 
-
 function RegPagInfLogin ()  {
    return (
 
@@ -13,7 +12,8 @@ function RegPagInfLogin ()  {
          <div className='bacRegister'>
           <RPSInfoLogin />         
       </div>
-      <FooterCPY />  
+      <FooterCPY /> 
+      
      </div>
    )
   };

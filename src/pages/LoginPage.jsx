@@ -6,7 +6,7 @@ import LoP from './components/forms/L-P-Script';
 
 
 
-function LoadingPG ()  {
+function LoginPG ()  {
    return (
 
       <div>
@@ -18,7 +18,7 @@ function LoadingPG ()  {
    )
   };
 
-  export default LoadingPG
+  export default LoginPG
 
   
     

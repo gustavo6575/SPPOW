@@ -24,7 +24,7 @@
       cursor: pointer;
       filter: brightness(1.1);
       border-color: var(--branco);
-      border-width: 3px;
+      border-width: 2px;
       border-style: solid;
 
     }
@@ -34,14 +34,18 @@
       opacity: 0.6;
       cursor: not-allowed;
     }
-    width: 201px;   
-    height: 64px;   
-    margin: 1em 1em 1em auto;     
-    border: var(--letras-cor);
-    border-radius: 16px;
+    width: 150px;   
+    height: 40px;   
+    margin: 2em 1em 1em ;
+    border-radius: 10px;
     background-color: var(--preto);
     color: var(--amarelo);     
     border-color: var(--amarelo);
-    border-width: 3px;
-    border-style: solid;  
+    border-width: 2px;
+    border-style: solid; 
+    font-size: 16px; 
+   }
+
+   .buttonsText{
+     font-size: 15px;
    }

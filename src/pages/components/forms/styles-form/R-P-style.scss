@@ -17,36 +17,7 @@
 
   }
 
-  .TextIfoPessSex  {
- 
-    width:100%;
-    text-align: start;
-    font-size: 18px;
-    height: 22px;
-    color: var(--letras-cor);     
-    &:hover{
-      text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
-
-    }
-
-    }
-
-    .TextIfoPessAge {
- 
-      display: inline-flex;
-      flex-direction: row;  
-      font-size: 18px;
-      align-items: center;
-      color: var(--letras-cor);
-      margin-left: 15%;      
-      height: 22px;     
-        
-     text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
-     &:hover{  
-    text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
-
-    }
-      }
+   
 
     //____________________________Input_______________________
   .InputInfoPess {
@@ -87,8 +58,20 @@
 
    }
 
+//_____________Text config sex___________
+   .TextIfoPessSex  {
+ 
+    width:40%;
+    text-align: start;
+    font-size: 18px;
+    height: 22px;
+    color: var(--letras-cor);     
+    &:hover{
+      text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
 
+    }
 
+    }
     .InputInfoPessSex{
 
     display: inline-flexbox;
@@ -97,7 +80,7 @@
     font-size: 16px;
     height: 24px;
     margin-top: 5px;
-    width: 30%;    
+    width: 40%;    
     margin-left: 10px;
     margin-right: 30px;
     color: var(--letras-cor);
@@ -136,6 +119,24 @@
       0px 0px 0px 1px var(--amarelo);
   
      }
+//______________Input config Age___________
+     .TextIfoPessAge {
+ 
+      display: inline-flex;
+      flex-direction: row;  
+      font-size: 18px;
+      align-items: center;
+      color: var(--letras-cor);
+      margin-left: 15%;      
+      height: 22px; 
+      outline: 0;    
+        
+     text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+     &:hover{  
+    text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
+
+    }
+      }
 
      .InputInfoPessAge{ 
       width: 15%;  
@@ -406,8 +407,8 @@
             align-items: center;
             font-size: 14px;
             height: 24px;
-            width: 30%; 
-            margin-right: 10px;
+            width: 29%; 
+     
             color: var(--letras-cor);
             background-color: var(--cinzaT) ; 
             border-color: var(--preto);  
@@ -453,6 +454,7 @@
               flex-direction: row;  
               font-size: 18px;
               height: 22px;
+              padding-left: 25px;
               color: var(--letras-cor);      
               text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
               width: 33%;
@@ -556,13 +558,17 @@
                     flex-direction: row;  
                     font-size: 18px;
                     align-items: center;
-                    width: 70%;
+                    width: 73%;
                     height: 35px;
                     color: var(--letras-cor);      
                     text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
                      margin: auto;
 
                   }
+                  
+
+
+                  //________________Div SEX and Age_________________
                   .div5
                   {
                     display: inline-flex;
@@ -570,9 +576,238 @@
                     flex-direction: row;  
                     font-size: 18px;
                     align-items: center;
-                    width: 50%;
+                    width: 69%;
                     height: 10px;
                     color: var(--letras-cor);      
                     text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
                     margin: auto;
                   }
+                  .div6
+                  {
+                      display: inline-flex;
+                      justify-content: flex-start;
+                      flex-direction: row;  
+                      font-size: 18px;
+                      align-items: center;
+                      width: 75%;
+                      height: 35px;
+                      color: var(--letras-cor);      
+                      text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+                       margin: auto;
+                  }
+                 
+                  //____________Config User Login___________________-
+                  .TextInfoLogin {
+                    display: block;
+                    flex-direction: column;
+                    margin: auto;    
+                    text-align: left;
+                    padding-left: 15%;
+                    padding-top: 2%;
+                    padding-bottom: 0.5%;
+                    font-size: 18px;
+                    height: 22px;  
+                    text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+                    &:hover{  
+                    text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
+                  
+                   }
+                  }
+
+                  .InputInfoLogin {
+                    display: block;
+                    flex-direction: column;
+                    margin: auto;    
+                    font-size: 16px;
+                    height: 24px;  
+                    width: 70%;
+                    color: var(--letras-cor);
+                    background-color: var(--cinzaT) ; 
+                    border-color: var(--preto);  
+                    border-width: 1.5px; 
+                    border-style: ridge;
+                    border-radius: 3px;  
+                    padding-left: 10px;
+                    box-shadow:1px 1px 2px 1px var(--preto);      
+                      
+                  }
+                 
+                  .InputInfoLogin:hover{
+                
+                    border-color: var(--amareloM);  
+                    border-width: 1.5px; 
+                    border-style: ridge;
+                    border-radius: 3px;  
+                    padding-left: 10px;
+                    box-shadow:1px 1px 1px 2px var(--preto);
+                     
+                
+                  }
+                
+                  .InputInfoLogin:focus
+                  {
+                    outline: 0;
+                    border-style: solid;
+                    box-shadow:
+                    0px 0px 0px 1px var(--amarelo);
+                
+                   }
+
+
+                   //_______________Config Pass/Pass-C______________
+
+                   .TextIfoLoginPass  {
+ 
+  
+                    font-size: 18px;
+                    height: 22px;
+                    width: 52%;
+                    padding-left: 0px;  
+                    text-align: left;
+                    color: var(--letras-cor);      
+                    text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+                    &:hover{  
+                    text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
+                  
+                   }
+                    }
+                  //_____________________________________Input Config Pass___________
+                    .InputInfoLoginPass{
+                  
+                      display: inline-flexbox;
+                      flex-direction: row;  
+                      font-size: 14px;
+                      height: 24px;
+                      width: 33%;                     
+                      color: var(--letras-cor);
+                      background-color: var(--cinzaT) ; 
+                      border-color: var(--preto);  
+                      border-width: 1.5px; 
+                      border-style: ridge;
+                      border-radius: 3px;  
+                      padding-left: 10px;
+                      box-shadow:1px 1px 2px 1px var(--preto);
+                     
+                    }
+                   
+                  
+                      .InputInfoLoginPass:hover{
+                  
+                        color: var(--letras-cor);
+                        background-color: var(--cinzaT) ; 
+                        border-color: var(--amareloM);  
+                        border-width: 1.5px; 
+                        border-style: ridge;
+                        border-radius: 3px;  
+                        box-shadow:
+                           1px 1px 1px 2px var(--preto);
+                         
+                    
+                      }
+                    
+                    
+                      .InputInfoLoginPass:focus
+                      {
+                        outline: 0;
+                        border-style: solid;
+                        box-shadow:
+                        0px 0px 0px 1px var(--amarelo);
+                    
+                       }
+                  //__________________________________Text Config Pass________________________
+                  .TextIfoLoginPassC  {
+                   
+                  
+                    width: 50%;
+                    text-align: start;
+                    font-size: 18px;
+                    height: 24px;
+                    color: var(--letras-cor);      
+                    text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+                    &:hover{  
+                    text-shadow: 1px 1px 1px var(--preto), 0 0 0.1em var(--cinza), 0 0 0.2em var(--amarelo);
+                  
+                      }
+                    }
+                       //______________________________Input Config Pass_________________________
+                       .InputInfoLoginPassC{
+                  
+                        display: inline-flexbox;
+                        flex-direction: row;  
+                        align-items: center;
+                        font-size: 14px;
+                        height: 24px;    
+                        width: 33%;    
+                        margin-left: 10px;
+                        color: var(--letras-cor);
+                        background-color: var(--cinzaT) ; 
+                        border-color: var(--preto);  
+                        border-width: 1.5px; 
+                        border-style: ridge;
+                        border-radius: 3px;  
+                        padding-left: 10px;
+                        box-shadow:1px 1px 2px 1px var(--preto);
+                       
+                      }
+                     
+                    
+                        .InputInfoLoginPassC:hover{
+                    
+                          color: var(--letras-cor);
+                          background-color: var(--cinzaT) ; 
+                          border-color: var(--amareloM);  
+                          border-width: 1.5px; 
+                          border-style: ridge;
+                          border-radius: 3px;  
+                          padding-left: 10px;
+                          box-shadow:
+                             1px 1px 1px 2px var(--preto);
+                           
+                      
+                        }
+                      
+                      
+                        .InputInfoLoginPassC:focus
+                        {
+                          outline: 0;
+                          border-style: solid;
+                          box-shadow:
+                          0px 0px 0px 1px var(--amarelo);
+                      
+                         }
+
+                         //_____________________Config Divs Login__________________
+                         .divSenhaT
+                         {
+                             display: inline-flex;
+                             justify-content: flex-start;
+                             flex-direction: row;  
+                             font-size: 18px;
+                             align-items: center;
+                             width: 70%;
+                             height: 35px;
+                             color: var(--letras-cor);      
+                             text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+                              margin: auto;
+                         }
+                         .divSenhaI{
+                           display: inline-flexbox;
+                             justify-content: space-evenly;
+                             flex-direction: row;  
+                             font-size: 18px;
+                             align-items: center;
+                             height: 35px;
+                             color: var(--letras-cor);      
+                             text-shadow: 1px 1px 1px var(--preto), 0 0 0.3em var(--cinza), 0 0 0.2em var(--preto);
+                               margin: auto;
+                         }
+
+   
+                         input[type="number"]::-webkit-outer-spin-button,
+                         input[type="number"]::-webkit-inner-spin-button {
+                             -webkit-appearance: none;
+                             margin: 0;
+                         }
+                         input[type="number"] {
+                             -moz-appearance: textfield;
+                         }

@@ -45,9 +45,16 @@ import "./styles-form/button.scss"
 
             export function CreatACC (){
               return(
-                <button className="Cbutton" onClick = {() => alert("Criou Conta")}>Entrar </button>
+                <button className="Cbutton" onClick = {() => alert("Criou Conta")}>Criar Conta </button>
               );  
               }
+
+              export function BBackLoginHome (){
+                return(
+        
+                  <a href="../../../../LoginPage">  Voltar para Login </a>         
+                );  
+                };
 
         
 

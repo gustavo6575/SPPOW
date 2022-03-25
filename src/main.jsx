@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import LoadingPG from './pages/LoadingPage';
+import LoginPG from './pages/LoginPage';
 import RPSInfoChar from './pages/RegPagInfoPess';
 import RegPagInfoAddress from './pages/RegPagInfoAddress';
 import RegPagInfoLogin from './pages/RegPagInfoLogin';
@@ -14,8 +14,8 @@ const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<LoadingPG />} />
-      <Route path="/loginPage" element={<LoadingPG />} />
+      <Route path="/" element={<LoginPG />} />
+      <Route path="/loginPage" element={<LoginPG />} />
       <Route path="/RegisterPagePes" element={<RPSInfoChar />} />
       <Route path="/RegisterPageAddress" element={<RegPagInfoAddress />} />
       <Route path="/RegisterPageLogin" element={<RegPagInfoLogin />} />
